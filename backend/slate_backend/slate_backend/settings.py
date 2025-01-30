@@ -148,7 +148,7 @@ REST_FRAMEWORK = {
     ],
 }
 # this part is dummy as I need to register the app on gmail or any other email service to get the email working 
-# add redirect urls and client id and secret. Also need to create app password.
+# add redirect urls and client id and secret. Also need to create app password. If you want you can add here and it should work.
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
